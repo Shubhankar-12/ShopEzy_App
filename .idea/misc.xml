@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/language_selection_continue_btn.xml" value="0.1905" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/language_selection_tick_icon.xml" value="0.1905" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/logo_splash_screen.xml" value="0.1905" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/registration_circular_frame.xml" value="0.1905" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/theme_selection_tick_icon.xml" value="0.1905" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_language_selection.xml" value="0.19067977768277042" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_main.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>
     </option>

@@ -41,11 +41,11 @@ public class splash_screen extends AppCompatActivity {
             @Override
             public void run() {
                 Intent intent;
-                if(userState){
-                    intent = new Intent(splash_screen.this , Dashboard.class);
-                }else{
+//                if(userState){
+//                    intent = new Intent(splash_screen.this , Dashboard.class);
+//                }else{
                     intent = new Intent(splash_screen.this , language_selection.class);
-                }
+//                }
 
                 startActivity(intent);
                 finish();
