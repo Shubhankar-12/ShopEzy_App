@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ShopEzy</string>
+    <string name="project_for_microsoft_imagine_cup">project for HackBMU</string>
+    <string name="preference_file_key">shopezy_preference_file</string>
 </resources>
