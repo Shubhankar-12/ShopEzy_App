@@ -28,7 +28,7 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/sell_tracking_graph"
-                android:name="processing.android.PFragment"
+
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:layout_margin="8dp"
@@ -42,7 +42,7 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/periodGraph"
-                android:name="processing.android.PFragment"
+
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:layout_margin="8dp" />

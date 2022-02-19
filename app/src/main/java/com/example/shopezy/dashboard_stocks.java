@@ -1,4 +1,4 @@
-package com.homofabers.shopezy;
+package com.example.shopezy;
 
 import android.content.Intent;
 import android.os.Build;
@@ -18,10 +18,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.homofabers.shopezy.helpers.MyDBHandler;
-import com.homofabers.shopezy.helpers.invoiceViewAdapter;
-import com.homofabers.shopezy.helpers.stock_recycler;
-import com.homofabers.shopezy.model.stockItem;
+import com.example.shopezy.helpers.MyDBHandler;
+import com.example.shopezy.helpers.invoiceViewAdapter;
+import com.example.shopezy.helpers.stock_recycler;
+import com.example.shopezy.model.stockItem;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -62,8 +62,8 @@ public class dashboard_stocks extends Fragment {
         addNewProductBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext() , barcode_product_add.class);
-                startActivity(intent);
+//                Intent intent = new Intent(getContext() , barcode_product_add.class);
+//                startActivity(intent);
             }
         });
 

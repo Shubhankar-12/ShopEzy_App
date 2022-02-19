@@ -1,4 +1,4 @@
-package com.homofabers.shopezy;
+package com.example.shopezy;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,9 +20,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.homofabers.shopezy.helpers.MyDBHandler;
-import com.homofabers.shopezy.helpers.invoiceViewAdapter;
-import com.homofabers.shopezy.model.InvoiceDetailParams;
+import com.example.shopezy.helpers.MyDBHandler;
+import com.example.shopezy.helpers.invoiceViewAdapter;
+import com.example.shopezy.model.InvoiceDetailParams;
 
 import java.util.List;
 

@@ -47,6 +47,18 @@
             android:name=".language_selection"
             android:exported="false" />
         <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+
+        <activity
+            android:name=".Invoice_preview"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".language_selection"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
