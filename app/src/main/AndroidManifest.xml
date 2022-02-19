@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.shopezy">
+    package="com.homofabers.shopezy">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -8,9 +18,51 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ShopEzy">
+        android:theme="@style/Theme.Shopezy">
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".FeatureMissing"
+            android:exported="false" />
+        <activity
+            android:name=".barcode_product_add"
+            android:exported="false" />
+        <activity
+            android:name=".Invoice_preview"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".settings_account"
+            android:exported="false" />
+        <activity
+            android:name=".settings_main"
+            android:exported="false" />
+        <activity
+            android:name=".privacy_policy"
+            android:exported="false" />
+        <activity
+            android:name=".language_selection"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".analysis_graph"
+            android:exported="false" />
+        <activity
+            android:name=".barcodeScannerAc"
+            android:exported="false" />
+        <activity
+            android:name=".azure_demo"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +70,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

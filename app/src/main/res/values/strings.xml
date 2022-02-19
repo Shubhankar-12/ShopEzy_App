@@ -1,5 +1,20 @@
 <resources>
-    <string name="app_name">ShopEzy</string>
-    <string name="project_for_microsoft_imagine_cup">project for HackBMU</string>
+    <string name="app_name">Shopezy</string>
+    <string name="complete_your_profile">Complete your Profile</string>
+    <string name="by_registering_you_agree_to_shopezy">By registering you agree to Shopezy’s</string>
+    <string name="t_amp_c"><![CDATA[T&C]]></string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="shop_or_bussiness_name">Shop or Bussiness name</string>
+    <string name="bussiness_category">Bussiness Category</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="bussiness_owner_s_name">Bussiness owner’s name</string>
+    <string name="bussiness_address">Bussiness Address</string>
+
     <string name="preference_file_key">shopezy_preference_file</string>
+    <string name="shpezy_logo">shpezy logo</string>
+    <string name="project_for_h">Project for HackBMU</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

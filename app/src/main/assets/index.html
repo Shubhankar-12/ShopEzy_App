@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Invoice</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div id="invoice_page">
+            <div id="heading_invoice">
+                <div id="side_lines1" class="side_lines">
+                    <hr>
+                    <hr class="grey_hr">
+                </div>
+                <img id="shop_profile_pic" src="../media/userphoto.png">
+                <div id="shop_info1">
+                    <span id="shop_name">Lesile Fashion</span>
+                    <span id="shop_address_container"> <img id="location_icon" src="location_icon.svg">
+                         <span id="shop_address">2972 Westheimer Rd. Santa Ana Ranchview , Illinois 85486 </span>
+                    </span>
+                </div>
+                <div id="shop_Mail">
+                   <img src="mail.svg">
+                    <span id="email_shop"> Lesilealexandder@gmail.com </span>
+                </div>
+                <div id="shop_phone">
+                    <img src="phone.svg">
+                    <span id="phone_shop"></span>
+                </div>
+                <div id="side_lines2" class="side_lines">
+                    <hr>
+                    <hr class="grey_hr">
+                </div>
+            </div>
+            <div id="customer_info">
+                <div id="customer_info_head">
+                    <span id="Invoice_To_txt">Invoice To</span>
+                    <span id="Invoice_txt">Invoice</span>
+                </div>
+                <div  id="customer_info_head_2">
+                    <span id="customer_name">Samantha Weitzel</span>
+                    <span id="invoice_number">#20211012826</span>
+                </div>
+                <div id="customer_info_3">
+                    <div id="customer_phone_email">
+                        <span id="customer_email">Email - </span>
+                        <span id="customer_phone">Phone - </span>
+                    </div>
+                    <span id="invoice_date"> Date - 7th oct 2021 </span>
+                </div>
+            </div>
+            <div id="purchase_item">
+                <table id="items_tables">
+                    <thead id="heading_row">
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>ITEMS</th>
+                            <th>UNIT PRICE</th>
+                            <th>QTY.</th>
+                            <th>OFFERS</th>
+                            <th>TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_body">
+                        <tr>
+                            <td>-</td>
+                            <td>GRAND TOTAL</td>
+                            <td>-</td>
+                            <td id="total_items"></td>
+                            <td>-</td>
+                            <td id="total_price"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="payment_director_info" >
+                <div id="payment_method">
+                    <span id="payment_method_txt">Payment Method</span>
+                    <span id="payment_method_info">Paypal - lessile12@paypal</span>
+                    <span id="extra_payment_txt">We accept : CHEQUE | CASH PAYMENTS
+                        AMERICAN EXPRESS | VISA | MASTER</span>
+                </div>
+                <div id="accountant_director">
+                    <img id="accountant_signature" src="../media/invoice_preview/default_signature.png">
+                    <span id="accountant_name">SAEESHI STONES</span>
+                    <span id="accountant_position">Accountant Director</span>
+                </div>
+            </div>
+            <div id="shops_tc">
+                <span>Term and Conditions :  Items return policy is 3 days  against any manufacturing defects. </span>
+                <span>All judicary and legal action against lesile fashion store is to be done in Ranchview regional consumer court</span>
+            </div>
+            <div id="thanking_customer">
+                <span id="thanking_customer_text1">Invoice service powered by Shopezy </span>
+                <span id="thanking_customer_text2">Thank you for shopping at </span>
+            </div>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
