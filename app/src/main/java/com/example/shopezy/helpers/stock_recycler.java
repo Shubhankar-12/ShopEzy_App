@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.homofabers.shopezy.R;
-import com.homofabers.shopezy.model.stockItem;
+import com.example.shopezy.R;
+import com.example.shopezy.model.stockItem;
 
 import java.util.List;
 

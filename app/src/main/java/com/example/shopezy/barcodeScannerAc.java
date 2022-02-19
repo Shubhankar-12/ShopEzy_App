@@ -46,12 +46,12 @@ import com.google.mlkit.vision.barcode.BarcodeScanner;
 import com.google.mlkit.vision.barcode.BarcodeScanning;
 import com.google.mlkit.vision.barcode.common.Barcode;
 import com.google.mlkit.vision.common.InputImage;
-import com.homofabers.shopezy.helpers.MyDBHandler;
-import com.homofabers.shopezy.helpers.scanItemRecycler;
-import com.homofabers.shopezy.interf.scanItemInterface;
-import com.homofabers.shopezy.model.InvoiceDetailParams;
-import com.homofabers.shopezy.model.ItemData;
-import com.homofabers.shopezy.model.customerTable;
+import com.example.shopezy.helpers.MyDBHandler;
+import com.example.shopezy.helpers.scanItemRecycler;
+import com.example.shopezy.interf.scanItemInterface;
+import com.example.shopezy.model.InvoiceDetailParams;
+import com.example.shopezy.model.ItemData;
+import com.example.shopezy.model.customerTable;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -241,13 +241,13 @@ public class barcodeScannerAc extends AppCompatActivity implements scanItemInter
         accountant_director_menu = findViewById(R.id.accountant_dir_menu);
 
         final String[] payment_mode_array = {"VISA","UPI","CASH"};
-        ArrayAdapter<String> paymentModes = new ArrayAdapter<>(this , R.layout.support_simple_spinner_dropdown_item,
+        ArrayAdapter<String> paymentModes = new ArrayAdapter<>(this , androidx.constraintlayout.widget.R.layout.support_simple_spinner_dropdown_item,
                 payment_mode_array);
         payment_mode_menu.setAdapter(paymentModes);
         payment_mode_menu.setInputType(InputType.TYPE_NULL);
 
         final String[] accountant_dir_array = {"Shivay","Sashwat","Shivam"};
-        ArrayAdapter<String> accountantDirs = new ArrayAdapter<>(this , R.layout.support_simple_spinner_dropdown_item,
+        ArrayAdapter<String> accountantDirs = new ArrayAdapter<>(this , androidx.constraintlayout.widget.R.layout.support_simple_spinner_dropdown_item,
                 accountant_dir_array);
         accountant_director_menu.setAdapter(accountantDirs);
         accountant_director_menu.setInputType(InputType.TYPE_NULL);

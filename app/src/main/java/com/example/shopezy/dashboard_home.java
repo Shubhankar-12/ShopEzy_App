@@ -22,9 +22,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.homofabers.shopezy.helpers.DashboardViewModel;
-import com.homofabers.shopezy.helpers.ImageFormatConversion;
-import com.homofabers.shopezy.model.UserSetting;
+import com.example.shopezy.helpers.DashboardViewModel;
+import com.example.shopezy.helpers.ImageFormatConversion;
+import com.example.shopezy.model.UserSetting;
 
 import java.time.LocalDateTime;
 
@@ -66,13 +66,13 @@ public class dashboard_home extends Fragment {
         addProductCard = getActivity().findViewById(R.id.addProductCard);
 
         // open notification activity
-        notification_icon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext() , notification.class);
-                startActivity(intent);
-            }
-        });
+//        notification_icon.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getContext() , notification.class);
+//                startActivity(intent);
+//            }
+//        });
 
         // logout the user out of the app
         logout_icon.setOnClickListener(new View.OnClickListener() {
@@ -93,13 +93,13 @@ public class dashboard_home extends Fragment {
             }
         });
 
-        edit_profile_icon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext() , settings_account.class);
-                startActivity(intent);
-            }
-        });
+//        edit_profile_icon.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getContext() , settings_account.class);
+//                startActivity(intent);
+//            }
+//        });
 
         addProductCard.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,14 +119,14 @@ public class dashboard_home extends Fragment {
 
 
 
-        settings_card = getActivity().findViewById(R.id.settingCard);
-        settings_card.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext() , settings_main.class);
-                startActivity(intent);
-            }
-        });
+//        settings_card = getActivity().findViewById(R.id.settingCard);
+//        settings_card.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getContext() , settings_main.class);
+//                startActivity(intent);
+//            }
+//        });
 
         newInvoiceCard = getActivity().findViewById(R.id.newInvoiceCard);
         newInvoiceCard.setOnClickListener(new View.OnClickListener() {

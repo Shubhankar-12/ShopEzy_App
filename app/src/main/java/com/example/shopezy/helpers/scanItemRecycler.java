@@ -9,9 +9,9 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.homofabers.shopezy.R;
-import com.homofabers.shopezy.interf.scanItemInterface;
-import com.homofabers.shopezy.model.ItemData;
+import com.example.shopezy.R;
+import com.example.shopezy.interf.scanItemInterface;
+import com.example.shopezy.model.ItemData;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
