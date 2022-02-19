@@ -8,6 +8,7 @@
         <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/logo_splash_screen.xml" value="0.1905" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/registration_circular_frame.xml" value="0.1905" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/drawable/theme_selection_tick_icon.xml" value="0.1905" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_barcode_product_add.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_dashboard.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_invoice_preview.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_language_selection.xml" value="0.19067977768277042" />
@@ -22,6 +23,7 @@
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/invoice_item_layout.xml" value="0.1" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/over_graphic.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/over_graphic_add_product.xml" value="0.19067977768277042" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/stock_item_layout.xml" value="0.19067977768277042" />
       </map>
     </option>
   </component>

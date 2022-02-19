@@ -1,4 +1,4 @@
-package com.homofabers.shopezy;
+package com.example.shopezy;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -45,9 +45,9 @@ import com.google.mlkit.vision.barcode.BarcodeScanner;
 import com.google.mlkit.vision.barcode.BarcodeScanning;
 import com.google.mlkit.vision.barcode.common.Barcode;
 import com.google.mlkit.vision.common.InputImage;
-import com.homofabers.shopezy.helpers.MyDBHandler;
-import com.homofabers.shopezy.model.ItemData;
-import com.homofabers.shopezy.model.stockItem;
+import com.example.shopezy.helpers.MyDBHandler;
+import com.example.shopezy.model.ItemData;
+import com.example.shopezy.model.stockItem;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
