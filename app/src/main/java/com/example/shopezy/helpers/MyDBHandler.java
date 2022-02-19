@@ -10,12 +10,12 @@ import android.util.Log;
 
 import androidx.annotation.RequiresApi;
 
-import com.homofabers.shopezy.model.AccountantTable;
-import com.homofabers.shopezy.model.DBParams;
-import com.homofabers.shopezy.model.InvoiceDetailParams;
-import com.homofabers.shopezy.model.ItemData;
-import com.homofabers.shopezy.model.customerTable;
-import com.homofabers.shopezy.model.stockItem;
+import com.example.shopezy.model.AccountantTable;
+import com.example.shopezy.model.DBParams;
+import com.example.shopezy.model.InvoiceDetailParams;
+import com.example.shopezy.model.ItemData;
+import com.example.shopezy.model.customerTable;
+import com.example.shopezy.model.stockItem;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

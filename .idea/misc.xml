@@ -12,7 +12,12 @@
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_invoice_preview.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_language_selection.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_main.xml" value="0.19067977768277042" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_registration_screen.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/fragment_dashboard_analytics.xml" value="0.19067977768277042" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/fragment_dashboard_home.xml" value="0.19067977768277042" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/fragment_dashboard_invoice.xml" value="0.19067977768277042" />
+        <entry key="..\:/ShopEzy_App/app/src/main/res/layout/fragment_dashboard_stocks.xml" value="0.19067977768277042" />
         <entry key="..\:/ShopEzy_App/app/src/main/res/layout/invoice_item_layout.xml" value="0.1" />
       </map>
     </option>

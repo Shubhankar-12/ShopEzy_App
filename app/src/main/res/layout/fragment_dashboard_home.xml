@@ -385,7 +385,7 @@
 
                     <androidx.fragment.app.FragmentContainerView
                         android:id="@+id/fragmentContainerView2"
-                        android:name="processing.android.PFragment"
+
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"

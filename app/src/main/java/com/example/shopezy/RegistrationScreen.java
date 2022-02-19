@@ -32,9 +32,9 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.google.android.material.textfield.TextInputLayout;
-import com.homofabers.shopezy.helpers.DataInputValidator;
-import com.homofabers.shopezy.helpers.ImageFormatConversion;
-import com.homofabers.shopezy.model.UserSetting;
+import com.example.shopezy.helpers.DataInputValidator;
+import com.example.shopezy.helpers.ImageFormatConversion;
+import com.example.shopezy.model.UserSetting;
 
 public class RegistrationScreen extends AppCompatActivity {
 
@@ -86,7 +86,7 @@ public class RegistrationScreen extends AppCompatActivity {
         // check for all the permissions
         if (allPermissionsGranted()) {
             manageRegistration();
-            manageNavigation(); //start camera if permission has been granted by user
+//            manageNavigation(); //start camera if permission has been granted by user
         } else {
             ActivityCompat.requestPermissions(this, REQUIRED_PERMISSIONS, REQUEST_CODE_PERMISSIONS);
         }
@@ -111,7 +111,7 @@ public class RegistrationScreen extends AppCompatActivity {
         if (requestCode == REQUEST_CODE_PERMISSIONS) {
             if (allPermissionsGranted()) {
                 manageRegistration();
-                manageNavigation();
+//                manageNavigation();
             } else {
                 Toast.makeText(this, "Permissions not granted by the user.", Toast.LENGTH_SHORT).show();
                 this.finish();
@@ -119,16 +119,7 @@ public class RegistrationScreen extends AppCompatActivity {
         }
     }
 
-    private void manageNavigation() {
-        privacyText = findViewById(R.id.privacy_text);
-        privacyText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(RegistrationScreen.this , privacy_policy.class);
-                startActivity(intent);
-            }
-        });
-    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -178,7 +169,7 @@ public class RegistrationScreen extends AppCompatActivity {
 
         // set menu to the category selection view
         ArrayAdapter<String> category_adapter = new ArrayAdapter<>( RegistrationScreen.this ,
-                R.layout.support_simple_spinner_dropdown_item , userSetting.shop_category_options);
+                androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, userSetting.shop_category_options);
         bussiness_category_menu.setAdapter(category_adapter);
         bussiness_category_menu.setInputType(InputType.TYPE_NULL);
 

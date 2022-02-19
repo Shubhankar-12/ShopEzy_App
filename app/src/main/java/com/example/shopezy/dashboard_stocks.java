@@ -62,8 +62,8 @@ public class dashboard_stocks extends Fragment {
         addNewProductBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext() , barcode_product_add.class);
-                startActivity(intent);
+//                Intent intent = new Intent(getContext() , barcode_product_add.class);
+//                startActivity(intent);
             }
         });
 
