@@ -6,7 +6,7 @@ The mobile application is now featured with all functionalities of desktop appli
 
 To Run the Application follow the given steps : 
 
-1. Download the shopezy apk file from FINAL APP RELEASE directory
+1. Download the shopezy apk file from [FINAL APP RELEASE](/FINAL%20APP%20RELEASE) directory
 2. Shopezy.apk file in directory is the installation file for android.
 3. Select english as language and light background .
 4. Register in the application 
