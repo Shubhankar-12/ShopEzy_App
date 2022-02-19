@@ -1,4 +1,4 @@
-package com.homofabers.shopezy;
+package com.example.shopezy;
 
 import android.content.DialogInterface;
 import android.content.Intent;

@@ -10,7 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShopEzy">
         <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+
+        <activity
+            android:name=".Invoice_preview"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".language_selection"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegistrationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

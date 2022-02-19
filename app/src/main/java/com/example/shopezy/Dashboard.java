@@ -1,5 +1,6 @@
-package com.homofabers.shopezy;
+package com.example.shopezy;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.cardview.widget.CardView;
@@ -7,6 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.content.res.ColorStateList;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.homofabers.shopezy.helpers.DashboardViewModel;
+import com.example.shopezy.helpers.DashboardViewModel;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -24,6 +26,7 @@ public class Dashboard extends AppCompatActivity {
     private DashboardViewModel viewModel;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +43,7 @@ public class Dashboard extends AppCompatActivity {
         manageColorForTab(0);
 
         home_container.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
                 manageColorForTab(0);
@@ -47,6 +51,7 @@ public class Dashboard extends AppCompatActivity {
         });
 
         analytics_container.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
                 manageColorForTab(1);
@@ -54,6 +59,7 @@ public class Dashboard extends AppCompatActivity {
         });
 
         invoice_container.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
                 manageColorForTab(2);
@@ -61,6 +67,7 @@ public class Dashboard extends AppCompatActivity {
         });
 
         stocks_container.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
                 manageColorForTab(3);
@@ -95,6 +102,7 @@ public class Dashboard extends AppCompatActivity {
         stocks_container = findViewById(R.id.stocks_container);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     public void manageColorForTab(int selectedTab){
 
         // create a fragment manager that manages transaction of fragments
