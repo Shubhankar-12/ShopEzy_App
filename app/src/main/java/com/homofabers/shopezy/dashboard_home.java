@@ -74,70 +74,70 @@ public class dashboard_home extends Fragment {
             }
         });
 
-        // logout the user out of the app
-//        logout_icon.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                //create an alert dialog
-//                new AlertDialog.Builder(getContext())
-//                        .setTitle("Logout")
-//                        .setMessage("Do you really want to logout?\nYou can log in again with your passcode.")
-//                        .setIcon(android.R.drawable.ic_dialog_alert)
-//                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-//
-//                            public void onClick(DialogInterface dialog, int w) {
-//                                Toast.makeText(getContext(),"You have not set a passcode yet" , Toast.LENGTH_SHORT).show();
-//                            }})
-//                        .setNegativeButton("No", null).show();
-//            }
-//        });
+//         logout the user out of the app
+        logout_icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-//        edit_profile_icon.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getContext() , settings_account.class);
-//                startActivity(intent);
-//            }
-//        });
+                //create an alert dialog
+                new AlertDialog.Builder(getContext())
+                        .setTitle("Logout")
+                        .setMessage("Do you really want to logout?\nYou can log in again with your passcode.")
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 
-//        addProductCard.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getContext(),barcode_product_add.class);
-//                startActivity(intent);
-//            }
-//        });
+                            public void onClick(DialogInterface dialog, int w) {
+                                Toast.makeText(getContext(),"You have not set a passcode yet" , Toast.LENGTH_SHORT).show();
+                            }})
+                        .setNegativeButton("No", null).show();
+            }
+        });
 
-//        sell_card = getActivity().findViewById(R.id.sell_card);
-//        Log.d("Sell Card: " , "oy");
-//        viewModel = new ViewModelProvider(requireActivity()).get(DashboardViewModel.class);
-//        sell_card.setOnClickListener(v -> {
-//            Log.d("Sell Card: " , "Clicked");
-//            viewModel.selectItem("invoice_history");
-//        });
+        edit_profile_icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext() , settings_account.class);
+                startActivity(intent);
+            }
+        });
+
+        addProductCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(),barcode_product_add.class);
+                startActivity(intent);
+            }
+        });
+
+        sell_card = getActivity().findViewById(R.id.sell_card);
+        Log.d("Sell Card: " , "oy");
+        viewModel = new ViewModelProvider(requireActivity()).get(DashboardViewModel.class);
+        sell_card.setOnClickListener(v -> {
+            Log.d("Sell Card: " , "Clicked");
+            viewModel.selectItem("invoice_history");
+        });
 
 
 
-//        settings_card = getActivity().findViewById(R.id.settingCard);
-//        settings_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getContext() , settings_main.class);
-//                startActivity(intent);
-//            }
-//        });
+        settings_card = getActivity().findViewById(R.id.settingCard);
+        settings_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext() , settings_main.class);
+                startActivity(intent);
+            }
+        });
 
-//        newInvoiceCard = getActivity().findViewById(R.id.newInvoiceCard);
-//        newInvoiceCard.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                Intent intent = new Intent(getContext() , barcodeScannerAc.class);
-//                startActivity(intent);
-//
-//            }
-//        });
+        newInvoiceCard = getActivity().findViewById(R.id.newInvoiceCard);
+        newInvoiceCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getContext() , barcodeScannerAc.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 

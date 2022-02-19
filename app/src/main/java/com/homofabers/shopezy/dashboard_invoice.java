@@ -68,7 +68,7 @@ public class dashboard_invoice extends Fragment  {
         MyDBHandler db = new MyDBHandler(getContext());
         InvoiceDetailParams invoiceDetail = new InvoiceDetailParams(0 , 100,
                 "UPI",1,23,"custb", "AccountantA");
-//        db.addInvoice(invoiceDetail);
+        db.addInvoice(invoiceDetail);
 
         List<InvoiceDetailParams> invoiceDetailList = db.getAllInvoices();
         for(InvoiceDetailParams invoice: invoiceDetailList){
@@ -101,7 +101,6 @@ public class dashboard_invoice extends Fragment  {
         invoiceRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
         adapter = new invoiceViewAdapter(getContext() , invoiceList);
         invoiceRecyclerView.setAdapter(adapter);
-
     }
 
 
